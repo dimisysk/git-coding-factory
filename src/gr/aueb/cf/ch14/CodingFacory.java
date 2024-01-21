@@ -1,5 +1,9 @@
 package gr.aueb.cf.ch14;
 
+/**
+ * Singleton Design Pattern.
+ */
+
 public class CodingFacory {
     private static final CodingFacory INSTANCE = new CodingFacory();
 

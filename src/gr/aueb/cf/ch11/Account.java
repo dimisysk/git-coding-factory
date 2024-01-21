@@ -116,7 +116,7 @@ public class Account {
 
             balance -= amount;
         } catch (Exception e) {
-//            e.printStackTrace();     εαν δεν θελω να βγαλει κοκκινο μηνυμα
+//            e.printStackTrace();     //εαν δεν θελω να βγαλει κοκκινο μηνυμα
             throw e;
         }
     }

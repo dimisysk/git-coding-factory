@@ -16,7 +16,7 @@ public class PointApp {
 
 
         int x = Math.abs(16);
-        System.out.println(x);
+//        System.out.println(x);
 
         p1.setX(2);
         p2.setY(5);

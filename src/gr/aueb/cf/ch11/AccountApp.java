@@ -9,7 +9,7 @@ public class AccountApp {
             alice.deposit(400.50);
             System.out.println("Successful deposit ");
 
-            bob.withdraw(200, "A234");
+            bob.withdraw(1200, "A1234");
             System.out.println("Successfull Withdraw");
 
             System.out.println(alice.accountToString());
