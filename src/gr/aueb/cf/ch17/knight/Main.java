@@ -1,8 +1,5 @@
 package gr.aueb.cf.ch17.knight;
 
-import gr.aueb.cf.ch17.IDecision;
-import gr.aueb.cf.ch17.IPrincess;
-
 public class Main {
 
     public static void main(String[] args) {
