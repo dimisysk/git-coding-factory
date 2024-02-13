@@ -16,7 +16,7 @@ public class Main {
         } else if (item instanceof CompactDisk) {
             System.out.println("CD was delivered.");
         } else {
-            throw new RuntimeException()
+            throw new RuntimeException();
         }
     }
 }
