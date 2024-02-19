@@ -4,6 +4,7 @@ import gr.aueb.cf.ch18.model.MobileContact;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class MobileContactDAOImpl implements IMobileContactDao {
 
@@ -23,12 +24,16 @@ public class MobileContactDAOImpl implements IMobileContactDao {
 
     @Override
     public void delete(Long id) {
-
+        contactas.removeIf(contact -> contact.getId().equals(id));
     }
 
     @Override
     public MobileContact get(Long id) {
-        return null;
+        Optional<MobileContact> contact = contactas.stream()
+                .filter(c-> c.getId().equals(id))
+                .findFirst();
+
+        return contact.orElse(null);
     }
 
     @Override
