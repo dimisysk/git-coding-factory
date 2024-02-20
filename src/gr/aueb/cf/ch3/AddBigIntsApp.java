@@ -1,4 +1,4 @@
-package gr.aueb.cf.ch3.test;
+package gr.aueb.cf.ch3;
 
 import java.math.BigInteger;
 
